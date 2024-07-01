@@ -136,7 +136,7 @@ function Content() {
             </span>{" "}
             and Product Builder
           </h2>
-          <h2 className="main-text-font3 sm:p-2">
+          <h2 className="main-text-font3 sm:p-2 lg:text-2xl md:text-xl">
             I love building products and growth hacking.
           </h2>
           <div className="flex justify-center lg:justify-start">
@@ -164,7 +164,7 @@ function Content() {
                 src={ArrowSvg}
                 alt="Arrow"
                 style={{ width: "20px", height: "20px" }}
-                className="hidden lg:inline-block md:inline-block"
+                className="lg:inline-block md:inline-block"
               />
             </button>{" "}
           </div>
