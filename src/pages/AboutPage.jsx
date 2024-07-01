@@ -1,35 +1,10 @@
 import React from "react";
 import AboutMe from "../assets/AboutMe.png";
-
+import ArrowSvg from "../assets/arrow.svg";
 const AboutPage = () => {
   return (
     <div className="text-Black min-h-screen">
       <div className="container mx-auto px-4 lg:px-20 py-10">
-        {/* Education History */}
-        {/* <section className="mb-8">
-          <div className="flex lg:order-1">
-            <h2 className="logo px-2 py-2 font-bold text-4xl mb-4">
-              Education{" "}
-              <span className="logo-font font-black text-4xl">History</span>
-            </h2>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="mb-4">
-              <h3 className="text-xl font-bold main-text-font1">
-                Ganpat University
-              </h3>
-              <p className="text-gray-700">
-                Bachelor's Degree in Computer Science Engineering
-              </p>
-              <p className="text-gray-700">2022 - 2025</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold">RC Technical University </h3>
-              <p className="text-gray-700">High School Diploma</p>
-              <p className="text-gray-700">2019 - 2020</p>
-            </div>
-          </div>
-        </section> */}
         {/* About Me */}
         <section className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-lg">
           <div className="bg-white p-6">
@@ -39,19 +14,18 @@ const AboutPage = () => {
             />
           </div>
           <div className="bg-white p-6">
-            <p className="text-gray-700">
-              I am a Full Stack Developer with a passion for building products
-              and growth hacking. I have experience working with React, Node.js,
-              and MongoDB. I am a quick learner and a team player who is always
-              eager to learn new technologies and frameworks. I am a Full Stack
-              Developer with a passion for building products and growth hacking.
-              I have experience working with React, Node.js, and MongoDB. I am a
-              quick learner and a team player who is always eager to learn new
-              technologies and frameworks. I am a Full Stack Developer with a
-              passion for building products and growth hacking. I have
-              experience working with React, Node.js, and MongoDB. I am a quick
-              learner and a team player who is always eager to learn new
-              technologies and frameworks.
+            <p className="text-gray-700 lg:text-2xl md:text-base sm:text-xs ">
+              I am a Full Stack Developer with a passion for building products.
+              I have experience working with React, Node.js, MongoDB, and other
+              technologies. I am a fast learner and a team player who always
+              likes to work with and for a team. I am hardworking and have quite
+              a bit of knowledge in web development. I have interned at a few
+              companies where I have grasped knowledge about web technologies.
+              Apart from that, I have an interest in cloud technologies and I am
+              also pursuing cloud as my major. I thrive in dynamic environments
+              and enjoy tackling new challenges. My internships have provided me
+              with hands-on experience in various projects, enhancing my skills
+              and knowledge.
             </p>
           </div>
         </section>
@@ -59,7 +33,7 @@ const AboutPage = () => {
         <section className="mb-8">
           <div className="flex lg:order-1">
             <h2 className="logo px-2 py-2 font-bold text-4xl mb-4">
-              Working{" "}
+              • Work{" "}
               <span className="logo-font font-black text-4xl">Experience</span>
             </h2>
           </div>
@@ -84,39 +58,151 @@ const AboutPage = () => {
 
         {/* Projects */}
         <section>
-          <h2 className="text-3xl font-bold mb-4">Projects</h2>
-          <div className="bg-white rounded-lg shadow-lg p-6 overflow-x-auto">
+          <h2 className="text-4xl font-bold mb-4 logo">• Projects</h2>
+          <div className="bg-white rounded-3xl shadow-2xl p-6 overflow-x-auto">
             <div className="flex space-x-4">
-              <div className="min-w-[300px] bg-gray-100 rounded-lg shadow-md p-4">
-                <h3 className="text-xl font-bold">Project 1</h3>
-                <p className="text-gray-700">Description of Project 1</p>
+              <div
+                className="min-w-[300px] rounded-xl shadow-md p-4"
+                style={{ backgroundColor: "#FF7D29" }}
+              >
+                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                  — Promptopia
+                </h3>
+                <p
+                  className="text-white logo text-base"
+                  style={{
+                    color: "#FEFFD2",
+                  }}
+                >
+                  Promptopia is an innovative platform that provides
+                  high-quality prompts for anyone needing the best output from
+                  text-generating AIs. Ideal for creative writing, content
+                  creation, and professional use, Promptopia ensures tailored
+                  prompts to enhance creativity and efficiency. Users can
+                  explore a vast library or customize prompts for specific
+                  needs. Our goal is to streamline the content creation process,
+                  making it more accessible and effective. Join Promptopia to
+                  revolutionize how you interact with text-generating AIs and
+                  achieve high-quality, relevant content effortlessly.
+                </p>
+                <button
+                  className="rounded-full mt-4 lg:mt-3"
+                  style={{
+                    color: "black",
+                    fontStyle: "italic",
+                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                    border: "1px solid black",
+                    padding: "10px 40px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    backgroundColor: "white",
+                  }}
+                  onClick={() => {
+                    window.open("#", "_blank");
+                  }}
+                >
+                  Visit
+                  <img
+                    src={ArrowSvg}
+                    alt="Arrow"
+                    style={{ width: "20px", height: "20px" }}
+                    className="lg:inline-block md:inline-block"
+                  />
+                </button>{" "}
               </div>
-              <div className="min-w-[300px] bg-gray-100 rounded-lg shadow-md p-4">
-                <h3 className="text-xl font-bold">Project 2</h3>
-                <p className="text-gray-700">Description of Project 2</p>
+              <div
+                className="min-w-[300px] bg-black rounded-xl shadow-md p-4"
+                style={{ backgroundColor: "#294B29" }}
+              >
+                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                  — CoSketch
+                </h3>{" "}
+                <p className="text-base" style={{ color: "#DBE7C9" }}>
+                  Ideashare is a collaborative platform that offers a sharable
+                  canvas where two users can join and share their ideations in
+                  real-time. Perfect for brainstorming sessions, project
+                  planning, and creative collaboration, Ideashare enhances
+                  teamwork and innovation. The platform is intuitive and easy to
+                  use, allowing users to draw, write, and visualize their ideas
+                  seamlessly. With Ideashare, you can capture and develop ideas
+                  together, making the creative process more dynamic and
+                  interactive. Join Ideashare and experience a new way of
+                  collaborating and bringing ideas to life.
+                </p>
+                <button
+                  className="rounded-full mt-4 lg:mt-3"
+                  style={{
+                    color: "black",
+                    fontStyle: "italic",
+                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                    border: "1px solid black",
+                    padding: "10px 40px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    backgroundColor: "white",
+                  }}
+                  onClick={() => {
+                    window.open("#", "_blank");
+                  }}
+                >
+                  Building
+                  <img
+                    src={ArrowSvg}
+                    alt="Arrow"
+                    style={{ width: "20px", height: "20px" }}
+                    className="lg:inline-block md:inline-block"
+                  />
+                </button>{" "}
               </div>
-              <div className="min-w-[300px] bg-gray-100 rounded-lg shadow-md p-4">
-                <h3 className="text-xl font-bold">Project 3</h3>
-                <p className="text-gray-700">Description of Project 3</p>
+              <div
+                className="min-w-[300px] rounded-xl shadow-md p-4"
+                style={{ backgroundColor: "#01204E" }}
+              >
+                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                  — MoneyMate
+                </h3>{" "}
+                <p className="text-base" style={{ color: "#A7E6FF" }}>
+                  MoneyMate is a personal finance app designed to simplify
+                  tracking your finances and investments. With an intuitive
+                  interface, MoneyMate allows users to monitor income, expenses,
+                  and investments in one place. The app provides features such
+                  as budget creation, expense categorization, and investment
+                  tracking, helping you stay on top of your financial goals.
+                  Users can view detailed reports and insights to understand
+                  their spending habits and make informed financial decisions.
+                  MoneyMate is perfect for anyone looking to manage finances
+                </p>
+                <button
+                  className="rounded-full mt-4 lg:mt-3"
+                  style={{
+                    color: "black",
+                    fontStyle: "italic",
+                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                    border: "1px solid Black",
+                    padding: "10px 40px",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    backgroundColor: "white",
+                  }}
+                  onClick={() => {
+                    window.open("#", "_blank");
+                  }}
+                >
+                  Building
+                  <img
+                    src={ArrowSvg}
+                    alt="Arrow"
+                    style={{ width: "20px", height: "20px" }}
+                    className="lg:inline-block md:inline-block"
+                  />
+                </button>{" "}
               </div>
             </div>
           </div>
         </section>
-
-        {/* Tech Stack */}
-        {/* <section className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">Tech Stack</h2>
-          <div className="bg-white rounded-lg shadow-lg">
-            <ul className="list-none list-inside flex flex-col">
-              <li className="text-gray-700">React</li>
-              <li className="text-gray-700">Node.js</li>
-              <li className="text-gray-700">JavaScript (ES6+)</li>
-              <li className="text-gray-700">HTML & CSS (Tailwind CSS)</li>
-              <li className="text-gray-700">MongoDB</li>
-              <li className="text-gray-700">Git & GitHub</li>
-            </ul>
-          </div>
-        </section> */}
       </div>
     </div>
   );
