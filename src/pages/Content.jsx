@@ -129,14 +129,14 @@ function Content() {
       <div className="main-content-div flex flex-col-reverse lg:flex-row items-center justify-center">
         <div className="main-content-div1 flex-1 text-center lg:text-left">
           <h2 className="main-text-font1 lg:text-5xl xl:text-6xl sm:text-4xl sm:p-2">
-            I am a
-            <span className="main-text-font2 lg:text-6xl sm:text-4xl">
+            <span className="font-bold">I am a</span>
+            <span className="main-text-font2 lg:text-6xl sm:text-4xl italic">
               {" "}
               Full stack web developer
             </span>{" "}
-            and Product Builder
+            <span className="font-bold">and Product Builder</span>
           </h2>
-          <h2 className="main-text-font3 sm:p-2 lg:text-2xl md:text-xl">
+          <h2 className="main-text-font3 italic sm:p-2 lg:text-2xl md:text-xl">
             I love building products and growth hacking.
           </h2>
           <div className="flex justify-center lg:justify-start">

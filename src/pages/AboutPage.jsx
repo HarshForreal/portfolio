@@ -6,6 +6,12 @@ const AboutPage = () => {
     <div className="text-Black min-h-screen">
       <div className="container mx-auto px-4 lg:px-20 py-10">
         {/* About Me */}
+        <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
+          • About{" "}
+          <span className="logo-font font-black text-4xl italic font-light">
+            Me
+          </span>
+        </h2>
         <section className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-lg">
           <div className="bg-white p-6">
             <img
@@ -32,9 +38,11 @@ const AboutPage = () => {
         {/* Working Experience */}
         <section className="mb-8">
           <div className="flex lg:order-1">
-            <h2 className="logo px-2 py-2 font-bold text-4xl mb-4">
+            <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
               • Work{" "}
-              <span className="logo-font font-black text-4xl">Experience</span>
+              <span className="logo-font font-black text-4xl italic font-light">
+                Experience
+              </span>
             </h2>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-6">
@@ -57,7 +65,9 @@ const AboutPage = () => {
         </section>
 
         {/* Projects */}
-        <h2 className="text-4xl font-bold mb-4 logo">• Projects</h2>
+        <h2 className="text-4xl font-bold mb-4 logo font-semibold">
+          • Projects
+        </h2>
         <section>
           <div className="bg-white rounded-3xl shadow-2xl p-6 overflow-x-auto">
             <div className="flex space-x-4">
@@ -65,7 +75,7 @@ const AboutPage = () => {
                 className="min-w-[300px] rounded-xl shadow-md p-4"
                 style={{ backgroundColor: "#FF7D29" }}
               >
-                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                <h3 className="text-xl font-bold logo-font my-3 text-white italic">
                   — Promptopia
                 </h3>
                 <p
@@ -115,7 +125,7 @@ const AboutPage = () => {
                 className="min-w-[300px] bg-black rounded-xl shadow-md p-4"
                 style={{ backgroundColor: "#294B29" }}
               >
-                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                <h3 className="text-xl font-bold italic logo-font my-3 text-white">
                   — CoSketch
                 </h3>{" "}
                 <p className="text-base" style={{ color: "#DBE7C9" }}>
@@ -160,7 +170,7 @@ const AboutPage = () => {
                 className="min-w-[300px] rounded-xl shadow-md p-4"
                 style={{ backgroundColor: "#01204E" }}
               >
-                <h3 className="text-xl font-bold logo-font my-3 text-white">
+                <h3 className="text-xl font-bold italic logo-font my-3 text-white">
                   — MoneyMate
                 </h3>{" "}
                 <p className="text-base" style={{ color: "#A7E6FF" }}>
