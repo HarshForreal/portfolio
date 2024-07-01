@@ -71,7 +71,7 @@ function Navbar() {
             </li>
             <li className="px-8 py-4 text-base">
               <NavLink
-                to="/resume"
+                to="https://drive.google.com/file/d/1Y6-uFRmHOIPi7m_AzrZXHkRz7fJUlWwa/view"
                 className={({ isActive }) =>
                   `${isActive ? "font-black" : "text-gray-700"}`
                 }
@@ -92,7 +92,10 @@ function Navbar() {
           <Link to="contact" className="py-3 text-base">
             <li className="py-3 text-base">Contact</li>
           </Link>
-          <Link to="resume" className="py-3 text-base">
+          <Link
+            to="https://drive.google.com/file/d/1Y6-uFRmHOIPi7m_AzrZXHkRz7fJUlWwa/view"
+            className="py-3 text-base"
+          >
             <li className="py-3 text-base">Résumé</li>
           </Link>
         </ul>
