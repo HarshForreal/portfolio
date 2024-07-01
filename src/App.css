@@ -1,3 +1,62 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:ital,wght@1,600&family=Roboto:wght@300&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.logo-font {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+}
+
+.logo {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 26px;
+}
+
+.navbar-list {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+
+li {
+  text-decoration: none;
+  padding-left: 8rem;
+  padding-right: 2rem;
+}
+
+li:hover {
+  color: black;
+  font-weight: bold;
+  /* font-size: 18.5px; */
+}
+
+.main-text-font1 {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 20px;
+}
+.main-text-font2 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+.main-text-font3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.content-main-div {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.font-heading {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.experience-content {
+  margin-top: 188px;
+}
