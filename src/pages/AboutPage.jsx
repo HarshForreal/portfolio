@@ -4,73 +4,75 @@ import ArrowSvg from "../assets/arrow.svg";
 const AboutPage = () => {
   return (
     <div className="text-Black min-h-screen">
-      <div className="container mx-auto px-4 lg:px-20 py-10">
-        {/* About Me */}
-        <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
-          • About{" "}
-          <span className="logo-font font-black text-4xl italic font-light">
-            Me
-          </span>
-        </h2>
-        <section className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-lg">
-          <div className="bg-white p-6">
-            <img
-              src={AboutMe}
-              className="w-full h-auto rounded-lg mx-auto mb-4"
-            />
+      {/* <div className="container mx-auto px-4 lg:px-20 py-10"> */}
+      {/* About Me */}
+      <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
+        <span style={{ color: "#ff0000" }}>•</span> About{" "}
+        <span className="logo-font font-black text-4xl italic font-light">
+          Me
+        </span>
+      </h2>
+      <section className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-xl lg:p-10">
+        <div className="bg-white p-6">
+          <img
+            src={AboutMe}
+            className="w-full h-auto rounded-lg mx-auto mb-4"
+          />
+        </div>
+        <div className="bg-white p-6">
+          <p className="text-gray-700 lg:text-2xl md:text-base sm:text-xs ">
+            I am a Full Stack Developer with a passion for building products. I
+            have experience working with React, Node.js, MongoDB, and other
+            technologies. I am a fast learner and a team player who always likes
+            to work with and for a team. I am hardworking and have quite a bit
+            of knowledge in web development. I have interned at a few companies
+            where I have grasped knowledge about web technologies. Apart from
+            that, I have an interest in cloud technologies and I am also
+            pursuing cloud as my major. I thrive in dynamic environments and
+            enjoy tackling new challenges. My internships have provided me with
+            hands-on experience in various projects, enhancing my skills and
+            knowledge.
+          </p>
+        </div>
+      </section>
+      {/* Working Experience */}
+      <section className="mb-8">
+        <div className="flex lg:order-1">
+          <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
+            <span style={{ color: "#ff0000" }}>•</span> Work{" "}
+            <span className="logo-font font-black text-4xl italic font-light">
+              Experience
+            </span>
+          </h2>
+        </div>
+        <div className="bg-white rounded-lg shadow-lg p-6">
+          <div className="mb-4">
+            <h3 className="text-xl font-bold">Trentium Solutions</h3>
+            <p className="text-gray-700">Frontend Developer Intern</p>
+            <p className="text-gray-700">Aug'22 - Oct'22</p>
           </div>
-          <div className="bg-white p-6">
-            <p className="text-gray-700 lg:text-2xl md:text-base sm:text-xs ">
-              I am a Full Stack Developer with a passion for building products.
-              I have experience working with React, Node.js, MongoDB, and other
-              technologies. I am a fast learner and a team player who always
-              likes to work with and for a team. I am hardworking and have quite
-              a bit of knowledge in web development. I have interned at a few
-              companies where I have grasped knowledge about web technologies.
-              Apart from that, I have an interest in cloud technologies and I am
-              also pursuing cloud as my major. I thrive in dynamic environments
-              and enjoy tackling new challenges. My internships have provided me
-              with hands-on experience in various projects, enhancing my skills
-              and knowledge.
-            </p>
+          <div className="mb-4">
+            <h3 className="text-xl font-bold">Karma Foundation</h3>
+            <p className="text-gray-700">Project Lead</p>
+            <p className="text-gray-700">Nov'22 - Dec'22</p>
           </div>
-        </section>
-        {/* Working Experience */}
-        <section className="mb-8">
-          <div className="flex lg:order-1">
-            <h2 className="logo px-2 py-2 font-bold text-4xl mb-4 font-semibold	">
-              • Work{" "}
-              <span className="logo-font font-black text-4xl italic font-light">
-                Experience
-              </span>
-            </h2>
+          <div>
+            <h3 className="text-xl font-bold">Web Mavens</h3>
+            <p className="text-gray-700">Frontend Developer Intern</p>
+            <p className="text-gray-700">Mar'23 - Jun'23</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="mb-4">
-              <h3 className="text-xl font-bold">Trentium Solutions</h3>
-              <p className="text-gray-700">Frontend Developer Intern</p>
-              <p className="text-gray-700">Aug'22 - Oct'22</p>
-            </div>
-            <div className="mb-4">
-              <h3 className="text-xl font-bold">Karma Foundation</h3>
-              <p className="text-gray-700">Project Lead</p>
-              <p className="text-gray-700">Nov'22 - Dec'22</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold">Web Mavens</h3>
-              <p className="text-gray-700">Frontend Developer Intern</p>
-              <p className="text-gray-700">Mar'23 - Jun'23</p>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      {/* </div> */}
+      <h2 className="text-4xl font-bold mb-4 logo font-semibold">
+        <span style={{ color: "#ff0000" }}>•</span> Projects
+      </h2>
       {/* Projects */}
-      <h2 className="text-4xl font-bold mb-4 logo font-semibold">• Projects</h2>
       <section>
-        <div className="bg-white rounded-3xl shadow-2xl p-6 overflow-x-auto">
+        <div className="bg-white rounded-3xl p-6 overflow-x-auto mb-8">
           <div className="flex space-x-4">
             <div
-              className="min-w-[300px] rounded-xl shadow-md p-4"
+              className="min-w-[300px] rounded-xl  p-4"
               style={{ backgroundColor: "#FF7D29" }}
             >
               <h3 className="text-xl font-bold logo-font my-3 text-white italic">

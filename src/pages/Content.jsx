@@ -121,6 +121,8 @@
 import React from "react";
 import Svgcompo from "../components/Svgcompo";
 import ArrowSvg from "../assets/arrow.svg";
+import { Link, NavLink } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Content() {
   return (
@@ -140,8 +142,8 @@ function Content() {
             I love building products and growth hacking.
           </h2>
           <div className="flex justify-center lg:justify-start">
-            <button
-              className="rounded-full mt-4 lg:mt-0"
+            <NavLink
+              className="rounded-full lg:mt-6 mt-4 lg:mt-0"
               style={{
                 color: "black",
                 fontStyle: "italic",
@@ -152,21 +154,16 @@ function Content() {
                 alignItems: "center",
                 gap: "8px",
               }}
-              onClick={() => {
-                window.open(
-                  "https://drive.google.com/file/d/1Y6-uFRmHOIPi7m_AzrZXHkRz7fJUlWwa/view",
-                  "_blank"
-                );
-              }}
+              to="/about"
             >
-              Resume
+              <span style={{ color: "#ff0000" }}>About Me</span>
               <img
                 src={ArrowSvg}
                 alt="Arrow"
                 style={{ width: "20px", height: "20px" }}
                 className="lg:inline-block md:inline-block"
               />
-            </button>{" "}
+            </NavLink>{" "}
           </div>
         </div>
         <div className="main-content-div2 lg:flex lg:block md:flex md:block mt-4 lg:mt-0">

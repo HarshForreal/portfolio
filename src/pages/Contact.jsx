@@ -1,63 +1,3 @@
-// import React from "react";
-// import { FaLinkedin, FaTwitter } from "react-icons/fa";
-
-// function Contact() {
-//   return (
-//     <div className="bg-white text-black min-h-screen p-8">
-//       <div className="max-w-3xl mx-auto">
-//         {/* First Row */}
-//         <div className="flex flex-col lg:flex-row justify-between items-center mb-8">
-//           <h1 className="text-4xl font-bold">
-//             Contact Me<span className="text-red-500">.</span>
-//           </h1>
-//           <p className="text-xl lg:text-base text-green-600">
-//             OPEN TO WORK | Full Stack Developer
-//           </p>
-//         </div>
-
-//         {/* Second Division */}
-//         <div className="mb-8">
-//           <h2 className="text-2xl font-bold mb-2">
-//             For full time hiring or freelance work
-//           </h2>
-//           <p className="text-lg">
-//             Write a mail to{" "}
-//             <a href="mailto:work.harshpatel@gmail.com" className="text-red-500">
-//               work.patelharsh@gmail.com
-//             </a>{" "}
-//             or book a <span className="font-bold">meet call</span> with all
-//             details.
-//           </p>
-//         </div>
-
-//         {/* Last Division */}
-//         <div className="flex space-x-8">
-//           <a
-//             href="https://www.linkedin.com/in/harsh-patel-7228381b2/"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="text-xl flex items-center space-x-2"
-//           >
-//             <FaLinkedin />
-//             <span>LinkedIn</span>
-//           </a>
-//           <a
-//             href="https://twitter.com/Harsh_forreal"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="text-xl flex items-center space-x-2"
-//           >
-//             <FaTwitter />
-//             <span>Twitter</span>
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
 import React from "react";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -95,7 +35,7 @@ const Contact = () => {
       </div>
       <div className="social-icons flex  mt-8 space-x-8 text-2xl">
         <a
-          href="https://www.linkedin.com/in/harshpatel"
+          href="https://www.linkedin.com/in/harsh-patel-7228381b2/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"
@@ -103,7 +43,7 @@ const Contact = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://twitter.com/harshpatel"
+          href="https://twitter.com/Harsh_forreal"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"
