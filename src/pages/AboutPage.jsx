@@ -109,10 +109,13 @@ const AboutPage = () => {
                   backgroundColor: "white",
                 }}
                 onClick={() => {
-                  window.open("#", "_blank");
+                  window.open(
+                    "https://github.com/HarshForreal/SearchBestPrompts",
+                    "_blank"
+                  );
                 }}
               >
-                Visit
+                GitHub
                 <img
                   src={ArrowSvg}
                   alt="Arrow"
@@ -152,9 +155,6 @@ const AboutPage = () => {
                   alignItems: "center",
                   gap: "8px",
                   backgroundColor: "white",
-                }}
-                onClick={() => {
-                  window.open("#", "_blank");
                 }}
               >
                 Building
@@ -196,9 +196,6 @@ const AboutPage = () => {
                   alignItems: "center",
                   gap: "8px",
                   backgroundColor: "white",
-                }}
-                onClick={() => {
-                  window.open("#", "_blank");
                 }}
               >
                 Building

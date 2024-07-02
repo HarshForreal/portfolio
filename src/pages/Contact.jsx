@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-container bg-white text-black p-8 mt-20">
       <div>
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-6xl font-bold">
           Contact me <span className="text-red-500">●</span>
         </h1>
         <p className="text-green-600 mt-2">
@@ -14,7 +14,11 @@ const Contact = () => {
       </div>
       <div className="mt-8">
         <p className="text-2xl font-semibold">
-          For full time hiring or freelance work
+          For full time <span className="text-red-500  logo">Hiring</span> or
+          <span className="text-red-500 logo-font italic">
+            {" "}
+            Freelance Projects.
+          </span>
         </p>
         <p className="mt-2">
           Write a mail to{" "}
@@ -30,7 +34,7 @@ const Contact = () => {
           >
             meet call
           </a>{" "}
-          with all details
+          with all details.
         </p>
       </div>
       <div className="social-icons flex  mt-8 space-x-8 text-2xl">
