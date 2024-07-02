@@ -63,157 +63,154 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
-
-        {/* Projects */}
-        <h2 className="text-4xl font-bold mb-4 logo font-semibold">
-          • Projects
-        </h2>
-        <section>
-          <div className="bg-white rounded-3xl shadow-2xl p-6 overflow-x-auto">
-            <div className="flex space-x-4">
-              <div
-                className="min-w-[300px] rounded-xl shadow-md p-4"
-                style={{ backgroundColor: "#FF7D29" }}
+      </div>
+      {/* Projects */}
+      <h2 className="text-4xl font-bold mb-4 logo font-semibold">• Projects</h2>
+      <section>
+        <div className="bg-white rounded-3xl shadow-2xl p-6 overflow-x-auto">
+          <div className="flex space-x-4">
+            <div
+              className="min-w-[300px] rounded-xl shadow-md p-4"
+              style={{ backgroundColor: "#FF7D29" }}
+            >
+              <h3 className="text-xl font-bold logo-font my-3 text-white italic">
+                — Promptopia
+              </h3>
+              <p
+                className="text-white logo text-base"
+                style={{
+                  color: "#FEFFD2",
+                }}
               >
-                <h3 className="text-xl font-bold logo-font my-3 text-white italic">
-                  — Promptopia
-                </h3>
-                <p
-                  className="text-white logo text-base"
-                  style={{
-                    color: "#FEFFD2",
-                  }}
-                >
-                  Promptopia is an innovative platform that provides
-                  high-quality prompts for anyone needing the best output from
-                  text-generating AIs. Ideal for creative writing, content
-                  creation, and professional use, Promptopia ensures tailored
-                  prompts to enhance creativity and efficiency. Users can
-                  explore a vast library or customize prompts for specific
-                  needs. Our goal is to streamline the content creation process,
-                  making it more accessible and effective. Join Promptopia to
-                  revolutionize how you interact with text-generating AIs and
-                  achieve high-quality, relevant content effortlessly.
-                </p>
-                <button
-                  className="rounded-full mt-4 lg:mt-3"
-                  style={{
-                    color: "black",
-                    fontStyle: "italic",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
-                    border: "1px solid black",
-                    padding: "10px 40px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    backgroundColor: "white",
-                  }}
-                  onClick={() => {
-                    window.open("#", "_blank");
-                  }}
-                >
-                  Visit
-                  <img
-                    src={ArrowSvg}
-                    alt="Arrow"
-                    style={{ width: "20px", height: "20px" }}
-                    className="lg:inline-block md:inline-block"
-                  />
-                </button>{" "}
-              </div>
-              <div
-                className="min-w-[300px] bg-black rounded-xl shadow-md p-4"
-                style={{ backgroundColor: "#294B29" }}
+                Promptopia is an innovative platform that provides high-quality
+                prompts for anyone needing the best output from text-generating
+                AIs. Ideal for creative writing, content creation, and
+                professional use, Promptopia ensures tailored prompts to enhance
+                creativity and efficiency. Users can explore a vast library or
+                customize prompts for specific needs. Our goal is to streamline
+                the content creation process, making it more accessible and
+                effective. Join Promptopia to revolutionize how you interact
+                with text-generating AIs and achieve high-quality, relevant
+                content effortlessly.
+              </p>
+              <button
+                className="rounded-full mt-4 lg:mt-3"
+                style={{
+                  color: "black",
+                  fontStyle: "italic",
+                  boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                  border: "1px solid black",
+                  padding: "10px 40px",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  backgroundColor: "white",
+                }}
+                onClick={() => {
+                  window.open("#", "_blank");
+                }}
               >
-                <h3 className="text-xl font-bold italic logo-font my-3 text-white">
-                  — CoSketch
-                </h3>{" "}
-                <p className="text-base" style={{ color: "#DBE7C9" }}>
-                  Ideashare is a collaborative platform that offers a sharable
-                  canvas where two users can join and share their ideations in
-                  real-time. Perfect for brainstorming sessions, project
-                  planning, and creative collaboration, Ideashare enhances
-                  teamwork and innovation. The platform is intuitive and easy to
-                  use, allowing users to draw, write, and visualize their ideas
-                  seamlessly. With Ideashare, you can capture and develop ideas
-                  together, making the creative process more dynamic and
-                  interactive. Join Ideashare and experience a new way of
-                  collaborating and bringing ideas to life.
-                </p>
-                <button
-                  className="rounded-full mt-4 lg:mt-3"
-                  style={{
-                    color: "black",
-                    fontStyle: "italic",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
-                    border: "1px solid black",
-                    padding: "10px 40px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    backgroundColor: "white",
-                  }}
-                  onClick={() => {
-                    window.open("#", "_blank");
-                  }}
-                >
-                  Building
-                  <img
-                    src={ArrowSvg}
-                    alt="Arrow"
-                    style={{ width: "20px", height: "20px" }}
-                    className="lg:inline-block md:inline-block"
-                  />
-                </button>{" "}
-              </div>
-              <div
-                className="min-w-[300px] rounded-xl shadow-md p-4"
-                style={{ backgroundColor: "#01204E" }}
+                Visit
+                <img
+                  src={ArrowSvg}
+                  alt="Arrow"
+                  style={{ width: "20px", height: "20px" }}
+                  className="lg:inline-block md:inline-block"
+                />
+              </button>{" "}
+            </div>
+            <div
+              className="min-w-[300px] bg-black rounded-xl shadow-md p-4"
+              style={{ backgroundColor: "#294B29" }}
+            >
+              <h3 className="text-xl font-bold italic logo-font my-3 text-white">
+                — CoSketch
+              </h3>{" "}
+              <p className="text-base" style={{ color: "#DBE7C9" }}>
+                Ideashare is a collaborative platform that offers a sharable
+                canvas where two users can join and share their ideations in
+                real-time. Perfect for brainstorming sessions, project planning,
+                and creative collaboration, Ideashare enhances teamwork and
+                innovation. The platform is intuitive and easy to use, allowing
+                users to draw, write, and visualize their ideas seamlessly. With
+                Ideashare, you can capture and develop ideas together, making
+                the creative process more dynamic and interactive. Join
+                Ideashare and experience a new way of collaborating and bringing
+                ideas to life.
+              </p>
+              <button
+                className="rounded-full mt-4 lg:mt-3"
+                style={{
+                  color: "black",
+                  fontStyle: "italic",
+                  boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                  border: "1px solid black",
+                  padding: "10px 40px",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  backgroundColor: "white",
+                }}
+                onClick={() => {
+                  window.open("#", "_blank");
+                }}
               >
-                <h3 className="text-xl font-bold italic logo-font my-3 text-white">
-                  — MoneyMate
-                </h3>{" "}
-                <p className="text-base" style={{ color: "#A7E6FF" }}>
-                  MoneyMate is a personal finance app designed to simplify
-                  tracking your finances and investments. With an intuitive
-                  interface, MoneyMate allows users to monitor income, expenses,
-                  and investments in one place. The app provides features such
-                  as budget creation, expense categorization, and investment
-                  tracking, helping you stay on top of your financial goals.
-                  Users can view detailed reports and insights to understand
-                  their spending habits and make informed financial decisions.
-                  MoneyMate is perfect for anyone looking to manage finances
-                </p>
-                <button
-                  className="rounded-full mt-4 lg:mt-3"
-                  style={{
-                    color: "black",
-                    fontStyle: "italic",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
-                    border: "1px solid Black",
-                    padding: "10px 40px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    backgroundColor: "white",
-                  }}
-                  onClick={() => {
-                    window.open("#", "_blank");
-                  }}
-                >
-                  Building
-                  <img
-                    src={ArrowSvg}
-                    alt="Arrow"
-                    style={{ width: "20px", height: "20px" }}
-                    className="lg:inline-block md:inline-block"
-                  />
-                </button>{" "}
-              </div>
+                Building
+                <img
+                  src={ArrowSvg}
+                  alt="Arrow"
+                  style={{ width: "20px", height: "20px" }}
+                  className="lg:inline-block md:inline-block"
+                />
+              </button>{" "}
+            </div>
+            <div
+              className="min-w-[300px] rounded-xl shadow-md p-4"
+              style={{ backgroundColor: "#01204E" }}
+            >
+              <h3 className="text-xl font-bold italic logo-font my-3 text-white">
+                — MoneyMate
+              </h3>{" "}
+              <p className="text-base" style={{ color: "#A7E6FF" }}>
+                MoneyMate is a personal finance app designed to simplify
+                tracking your finances and investments. With an intuitive
+                interface, MoneyMate allows users to monitor income, expenses,
+                and investments in one place. The app provides features such as
+                budget creation, expense categorization, and investment
+                tracking, helping you stay on top of your financial goals. Users
+                can view detailed reports and insights to understand their
+                spending habits and make informed financial decisions. MoneyMate
+                is perfect for anyone looking to manage finances
+              </p>
+              <button
+                className="rounded-full mt-4 lg:mt-3"
+                style={{
+                  color: "black",
+                  fontStyle: "italic",
+                  boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+                  border: "1px solid Black",
+                  padding: "10px 40px",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  backgroundColor: "white",
+                }}
+                onClick={() => {
+                  window.open("#", "_blank");
+                }}
+              >
+                Building
+                <img
+                  src={ArrowSvg}
+                  alt="Arrow"
+                  style={{ width: "20px", height: "20px" }}
+                  className="lg:inline-block md:inline-block"
+                />
+              </button>{" "}
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   );
 };

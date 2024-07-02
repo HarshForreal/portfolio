@@ -409,7 +409,7 @@ function Navbar() {
         <div className="flex lg:order-1">
           <Link to="/" className="px-2 py-2 font-bold">
             <h2 className="logo px-2 py-2 font-bold">
-              Harsh{" "}  
+              Harsh{" "}
               <span className="logo-font font-black italic font-thin">
                 Patel
               </span>

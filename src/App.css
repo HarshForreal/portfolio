@@ -9,9 +9,6 @@
   /* text-align: center; */
 }
 
-html {
-  scroll-behavior: smooth;
-}
 /* body {
   overflow: hidden;
 } */
@@ -37,11 +34,10 @@ li {
   padding-right: 2rem;
 }
 
-li:hover {
-  color: black;
-  font-weight: bold;
-  /* font-size: 18.5px; */
-}
+/* li:hover {
+  color: red;
+  font-weight: 500;
+} */
 
 .main-text-font1 {
   font-family: "SF Pro Display", sans-serif;
