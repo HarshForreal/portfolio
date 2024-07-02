@@ -22,7 +22,7 @@ const Contact = () => {
         </p>
         <p className="mt-2">
           Write a mail to{" "}
-          <a href="mail-to:work.patelharsh@gmail.com" className="text-red-500">
+          <a href="mailto:work.patelharsh@gmail.com" className="text-red-500">
             work.patelharsh@gmail.com
           </a>{" "}
           or book a{" "}

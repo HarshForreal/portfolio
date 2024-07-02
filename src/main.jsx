@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Layout from "./components/Layout.jsx";
 import Contact from "./pages/Contact.jsx";
 import About from "./pages/AboutPage.jsx";
+import PorjectRedirectPage from "./pages/ProjectRedirectPage.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "ProjectRedirectPage",
+        element: <PorjectRedirectPage />,
       },
     ],
   },
