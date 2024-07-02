@@ -367,12 +367,11 @@ const AboutPage = () => {
                 </p>
               </div>
               <div className="flex justify-right mt-4">
-                <button
-                  className="rounded-full"
+                <NavLink
+                  className="rounded-full lg:mt-6 mt-4 lg:mt-0"
                   style={{
                     color: "black",
                     fontStyle: "italic",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
                     border: "1px solid black",
                     padding: "10px 40px",
                     display: "flex",
@@ -380,15 +379,16 @@ const AboutPage = () => {
                     gap: "8px",
                     backgroundColor: "white",
                   }}
+                  to={"/ProjectRedirectPage"}
                 >
-                  Building
+                  <span style={{ color: "black" }}>Building</span>
                   <img
                     src={ArrowSvg}
                     alt="Arrow"
                     style={{ width: "20px", height: "20px" }}
                     className="lg:inline-block md:inline-block"
                   />
-                </button>
+                </NavLink>{" "}
               </div>
             </div>
             <div
@@ -440,7 +440,7 @@ const AboutPage = () => {
                     color: "black",
                     fontStyle: "italic",
                     border: "1px solid black",
-                    padding: "10px 20px",
+                    padding: "10px 40px",
                     display: "flex",
                     alignItems: "center",
                     gap: "8px",
@@ -448,7 +448,7 @@ const AboutPage = () => {
                   }}
                   to={"/ProjectRedirectPage"}
                 >
-                  <span style={{ color: "black" }}>About Me</span>
+                  <span style={{ color: "black" }}>Building</span>
                   <img
                     src={ArrowSvg}
                     alt="Arrow"
