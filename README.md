@@ -1,8 +1,6 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository! This project showcases my journey, skills, and projects as a Full Stack Developer. It highlights my completed works, ongoing projects, and provides an insight into my expertise and passion for web development and cloud technologies.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+I'm Harsh Patel, a Full Stack Developer with a strong background in web technologies and a keen interest in cloud computing. With a holistic approach to software development and design, I thrive in dynamic environments and enjoy working collaboratively with teams to deliver high-quality solutions.
