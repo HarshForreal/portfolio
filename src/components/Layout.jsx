@@ -12,8 +12,6 @@ function Layout() {
         </div>
         <Footer />
       </div>
-      {/* <Navbar />
-      <Outlet /> */}
     </div>
   );
 }
