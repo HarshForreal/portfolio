@@ -6,7 +6,8 @@ const Contact = () => {
     <div className="contact-container bg-white text-black p-8 mt-20">
       <div>
         <h1 className="text-6xl font-bold">
-          Contact me <span className="text-red-500">●</span>
+          {/* <span className="text-red-500">●</span>Contact me */}
+          Contact me<span className="text-red-500">.</span>
         </h1>
         <p className="text-green-600 mt-2">
           OPEN TO WORK | Full Stack Developer
