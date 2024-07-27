@@ -3,7 +3,6 @@ import AboutMe from "../assets/AboutMe.webp";
 import ArrowSvg from "../assets/arrow.svg";
 import { NavLink } from "react-router-dom";
 import ProjectRedirectPage from "./ProjectRedirectPage";
-
 const AboutPage = () => {
   return (
     <div className="text-Black min-h-screen">
@@ -194,28 +193,6 @@ const AboutPage = () => {
                 </p>
               </div>
               <div className="flex justify-right mt-4">
-                {/* <button
-                  className="rounded-full"
-                  style={{
-                    color: "black",
-                    fontStyle: "italic",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
-                    border: "1px solid black",
-                    padding: "10px 40px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    backgroundColor: "white",
-                  }}
-                >
-                  Building
-                  <img
-                    src={ArrowSvg}
-                    alt="Arrow"
-                    style={{ width: "20px", height: "20px" }}
-                    className="lg:inline-block md:inline-block"
-                  />
-                </button> */}
                 <NavLink
                   className="rounded-full lg:mt-6 mt-4 lg:mt-0"
                   style={{
