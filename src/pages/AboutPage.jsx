@@ -135,7 +135,7 @@ const AboutPage = () => {
                   — CoSketch
                 </h3>
                 <p className="text-base" style={{ color: "#DBE7C9" }}>
-                  Ideashare is a collaborative platform that offers a sharable
+                  CoSketch is a collaborative platform that offers a sharable
                   canvas where two users can join and share their ideations in
                   real-time. Perfect for brainstorming sessions, project
                   planning, and creative collaboration, Ideashare enhances

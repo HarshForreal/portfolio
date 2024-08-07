@@ -78,7 +78,7 @@ function Navbar() {
             </li>
             <li className="px-8 py-4 text-base">
               <a
-                href="https://drive.google.com/file/d/1Y6-uFRmHOIPi7m_AzrZXHkRz7fJUlWwa/view"
+                href="https://drive.google.com/file/d/1HnaZnxwwFZrDRzBX88rVfpkCasJ8kbe8/view?usp=drive_link"
                 className="text-gray-700"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -124,7 +124,7 @@ function Navbar() {
             <li className="py-3 text-base">Contact</li>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1Y6-uFRmHOIPi7m_AzrZXHkRz7fJUlWwa/view"
+            href="https://drive.google.com/file/d/1HnaZnxwwFZrDRzBX88rVfpkCasJ8kbe8/view?usp=sharing"
             className="py-3 text-base"
             target="_blank"
             rel="noopener noreferrer"
