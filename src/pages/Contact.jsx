@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
-
 const Contact = () => {
   return (
     <div className="contact-container bg-white text-black p-8 mt-20">
@@ -9,9 +8,7 @@ const Contact = () => {
           {/* <span className="text-red-500">●</span>Contact me */}
           Contact me<span className="text-red-500">.</span>
         </h1>
-        <p className="text-green-600 mt-2">
-          OPEN TO WORK | Full Stack Developer
-        </p>
+        <p className="text-green-600 mt-2"> Full Stack Developer</p>
       </div>
       <div className="mt-8">
         <p className="text-2xl font-semibold">
@@ -33,7 +30,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            meet call
+            {`"meet call"`}
           </a>{" "}
           with all details.
         </p>

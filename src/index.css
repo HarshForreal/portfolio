@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/fonts/PPEditorialNew-Regular.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "CustomFontRegular";
+  src: url("./assets/fonts/PPEditorialNew-Regular.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "CustomFontUltraLightItalic";
+  src: url("./assets/fonts/PPEditorialNew-UltralightItalic.otf")
+    format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "CustomFontUltraLight";
+  src: url("./assets/fonts/PPEditorialNew-Ultralight.otf") format("opentype");
+  font-style: normal;
+}

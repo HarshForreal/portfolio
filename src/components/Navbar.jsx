@@ -98,7 +98,7 @@ function Navbar() {
         }`}
       >
         <button
-          className="absolute top-2 right-2 text-xl text-black"
+          className="absolute top-2 right-2 text-xl text-black p-2"
           onClick={closeMenu}
         >
           <svg
